@@ -13,6 +13,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 100px;
+    align-items: stretch;
 }
 .card{
     width:325px;
@@ -22,10 +23,13 @@ body{
     overflow: hidden;
     box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
     margin:20px;
+    display: flex;
+    flex-direction: column;
 }
 .card img{
     width:100%;
-    height:auto;
+    height: 500px; 
+    object-fit: cover; 
 }
 .card-content{
     padding:16px;
